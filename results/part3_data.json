@@ -1,0 +1,76 @@
+{
+ "n": 504,
+ "how": {
+  "keyword evidence": 443,
+  "BBC-section fallback (weak keyword evidence)": 61
+ },
+ "dist": {
+  "all": {
+   "Politics": 96,
+   "Sports": 104,
+   "Economy": 62,
+   "International": 88,
+   "Health & Society": 154
+  },
+  "train": {
+   "Politics": 67,
+   "Sports": 73,
+   "Economy": 43,
+   "International": 61,
+   "Health & Society": 108
+  },
+  "val": {
+   "Politics": 14,
+   "Sports": 16,
+   "Economy": 9,
+   "International": 14,
+   "Health & Society": 23
+  },
+  "test": {
+   "Politics": 15,
+   "Sports": 15,
+   "Economy": 10,
+   "International": 13,
+   "Health & Society": 23
+  }
+ },
+ "sizes": {
+  "train": 352,
+  "val": 76,
+  "test": 76
+ },
+ "crosstab": {
+  "Entertainment -> Economy": 9,
+  "Entertainment -> Health & Society": 58,
+  "Entertainment -> International": 5,
+  "Entertainment -> Politics": 9,
+  "Entertainment -> Sports": 3,
+  "Pakistan -> Economy": 23,
+  "Pakistan -> Health & Society": 30,
+  "Pakistan -> International": 6,
+  "Pakistan -> Politics": 40,
+  "Pakistan -> Sports": 5,
+  "Region (Aas Paas) -> Economy": 11,
+  "Region (Aas Paas) -> Health & Society": 20,
+  "Region (Aas Paas) -> International": 37,
+  "Region (Aas Paas) -> Politics": 26,
+  "Region (Aas Paas) -> Sports": 6,
+  "Science -> Economy": 11,
+  "Science -> Health & Society": 26,
+  "Science -> International": 3,
+  "Science -> Politics": 3,
+  "Sports -> Health & Society": 3,
+  "Sports -> International": 2,
+  "Sports -> Politics": 2,
+  "Sports -> Sports": 86,
+  "World -> Economy": 8,
+  "World -> Health & Society": 17,
+  "World -> International": 35,
+  "World -> Politics": 16,
+  "World -> Sports": 4
+ },
+ "seq_len": 256,
+ "vocab": 10001,
+ "pad_id": 10001,
+ "tokens_truncated": 474
+}

@@ -1,0 +1,4 @@
+embeddings/ppmi_matrix.npy
+results/ck_*.pt
+__pycache__/
+*.pyc

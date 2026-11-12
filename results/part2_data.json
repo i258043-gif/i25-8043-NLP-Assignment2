@@ -1,0 +1,126 @@
+{
+ "sizes": {
+  "train": 350,
+  "val": 74,
+  "test": 76
+ },
+ "topic_dist": {
+  "train": {
+   "Pakistan": 140,
+   "Entertainment": 105,
+   "Sports": 105
+  },
+  "val": {
+   "Pakistan": 30,
+   "Entertainment": 22,
+   "Sports": 22
+  },
+  "test": {
+   "Entertainment": 23,
+   "Sports": 23,
+   "Pakistan": 30
+  }
+ },
+ "pos_dist": {
+  "train": {
+   "DET": 299,
+   "NOUN": 2095,
+   "POST": 1454,
+   "ADJ": 333,
+   "PART": 214,
+   "VERB": 1427,
+   "CONJ": 344,
+   "PRON": 441,
+   "ADV": 235,
+   "NUM": 135,
+   "UNK": 30
+  },
+  "val": {
+   "PRON": 81,
+   "NOUN": 513,
+   "POST": 335,
+   "ADJ": 89,
+   "VERB": 319,
+   "CONJ": 85,
+   "PART": 54,
+   "NUM": 38,
+   "ADV": 58,
+   "DET": 51,
+   "UNK": 6
+  },
+  "test": {
+   "DET": 55,
+   "NOUN": 496,
+   "POST": 325,
+   "ADJ": 86,
+   "NUM": 34,
+   "VERB": 338,
+   "PART": 45,
+   "PRON": 94,
+   "ADV": 56,
+   "UNK": 7,
+   "CONJ": 78
+  }
+ },
+ "ner_dist": {
+  "train": {
+   "O": 6785,
+   "B-LOC": 78,
+   "B-PER": 22,
+   "I-PER": 24,
+   "B-MISC": 44,
+   "I-LOC": 9,
+   "I-MISC": 17,
+   "B-ORG": 12,
+   "I-ORG": 16
+  },
+  "val": {
+   "O": 1556,
+   "B-PER": 6,
+   "I-PER": 7,
+   "B-MISC": 17,
+   "I-MISC": 5,
+   "B-ORG": 3,
+   "B-LOC": 28,
+   "I-ORG": 2,
+   "I-LOC": 5
+  },
+  "test": {
+   "O": 1548,
+   "B-MISC": 15,
+   "B-LOC": 15,
+   "B-PER": 10,
+   "I-PER": 11,
+   "I-LOC": 2,
+   "I-MISC": 4,
+   "B-ORG": 3,
+   "I-ORG": 6
+  }
+ },
+ "entity_counts": {
+  "LOC": 121,
+  "PER": 38,
+  "MISC": 76,
+  "ORG": 18
+ },
+ "n_tokens": 10250,
+ "lexicon_sizes": {
+  "NOUN": 845,
+  "VERB": 217,
+  "ADJ": 450,
+  "ADV": 206,
+  "PRON": 57,
+  "DET": 44,
+  "CONJ": 28,
+  "POST": 56,
+  "PART": 11,
+  "NUM": 73
+ },
+ "gazetteer_sizes": {
+  "PER": 147,
+  "LOC": 113,
+  "ORG": 98,
+  "MISC": 64
+ },
+ "topic_min": 150
+}

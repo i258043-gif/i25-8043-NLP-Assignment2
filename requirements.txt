@@ -1,0 +1,14 @@
+torch>=2.2
+numpy
+scipy
+scikit-learn
+pandas
+matplotlib
+arabic-reshaper
+python-bidi
+nbformat
+nbclient
+ipykernel
+reportlab
+pypdf
+openpyxl
